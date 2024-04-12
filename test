@@ -1,0 +1,51 @@
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user01.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p data-lang="about_title">Hi there! I'm Huong, a web developer living in Hanoi. I'm always excited to
+                    tackle new challenges and contribute to innovative projects that make a difference. Let's build
+                    something amazing together!</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Frontend & Backend</span>
+                            <p>Knowledgeable in HTML, CSS, PHP, JavaScript</p>
+                        </li>
+                        <li><span>Framework</span>
+                            <p>Knowledgeable in Laravel, React.JS</p>
+                        </li>
+                        <li><span>Database Management</span>
+                            <p>Proficient in designing and managing relational databases with SQL</p>
+                        </li>
+                        <li><span>DevOps</span>
+                            <p>Knowledgeable in tools like Git and Docker for automating development and deployment
+                                processes.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>Participated in building several projects with the team at FPT Aptech.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>10/2022-10-2024(expected)</span>
+                            <p>Study at FPT Aptech</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
